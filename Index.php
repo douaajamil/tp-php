@@ -27,6 +27,7 @@ $note3 = $_POST['note3'] ?? 0;
 </body>
 </html>
 <?php 
+//EX1
 echo "<br><b>EX 1</b><br>"; 
 define("Etablissment","FPK");
 if (isset($_POST ['valider']))
@@ -72,6 +73,7 @@ if($moyenne >=10){
 }else{
     echo"non admis <br>";
 }
+//EX2
 echo "<br><b>EX 2</b><br>";
 switch ($mention) {
     case "Excelent": echo "Felicitation <br>";break;
@@ -97,6 +99,7 @@ $notesmatieres = [$note1, $note2, $note3];
 foreach($matieres as $index => $matiere){
     echo $matiere . " : " . $notesmatieres[$index] ."<br>";
 }
+//EX3
 echo "<br><b>EX 3</b><br>";
 $n = $note1; 
 //Table de multiplication
@@ -144,7 +147,7 @@ if($n % 2 == 0){
 }else{
     echo "$n est impair<br>";
 }
-
+//EX4
 echo "<br><b>EX 4</b><br>";
 /*
 Algorithme :
