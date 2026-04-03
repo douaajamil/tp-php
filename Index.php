@@ -1,13 +1,4 @@
-<?php
-$nom = $_POST['nom'] ?? "";
-$prenom = $_POST['prenom'] ?? "";
-$age = $_POST['age'] ?? 0;
-$Etablissement = $_POST['Etablissement'] ?? "";
 
-$note1 = $_POST['note1'] ?? 0;
-$note2 = $_POST['note2'] ?? 0;
-$note3 = $_POST['note3'] ?? 0;
-?>
 <html>
 <head>
     <title>Formulaire </title>
@@ -35,6 +26,7 @@ if (isset($_POST ['valider']))
         $nom=$_POST ['nom'];
         $prenom=$_POST ['prenom'];
         $age=$_POST ['age'];
+        $Etablissement = $_POST ['Etablissement'];
         $note1=$_POST ['n1'];
         $note2=$_POST ['n2'];
         $note3=$_POST ['n3'];
